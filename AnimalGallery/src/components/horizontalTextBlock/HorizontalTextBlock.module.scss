@@ -1,0 +1,21 @@
+@import "../../shared/Base.scss";
+
+.textBlockContainer{
+    width:50vw;
+    height: 10rem;
+    margin:0 auto 5rem;
+    box-sizing: border-box;
+    padding:2rem;
+    background-color: $bg-color-pink;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: $rounded-corners;
+
+    p{
+        font-size: $txt-l;
+        max-width: 100%;
+        font-family: $contrastFont;
+    }
+}

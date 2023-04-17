@@ -1,0 +1,19 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Tilt+Prism&display=swap');
+
+//Fonts
+$basefont:'Inter', sans-serif;
+$contrastFont:'Tilt Prism', cursive;
+
+//Sizes
+$txt-xl: clamp(1rem, 4rem, 8rem);
+$txt-l: clamp(0.8rem, 3rem, 6rem);
+
+//Weights
+$bold:600;
+
+//Colors
+$bg-color-mint-green:#daffe7;
+$bg-color-pink:rgb(251, 145, 251);
+
+//Radius
+$rounded-corners:5px;

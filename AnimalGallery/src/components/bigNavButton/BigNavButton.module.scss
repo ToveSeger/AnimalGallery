@@ -1,0 +1,21 @@
+@import "../../shared/Base.scss";
+
+.btn{
+    border-radius: $rounded-corners;
+    padding:3rem;
+    min-width:10rem;
+    max-width:38rem;
+    min-height: 10rem;
+    box-sizing: border-box;
+    background-color:$bg-color-mint-green;
+    text-decoration: none;
+    color:black;
+
+    p{
+        font-family: $contrastFont;
+        text-align: center;
+        font-size: $txt-xl;
+        max-width:100%;
+        overflow-wrap: break-word;
+    }
+}

@@ -1,0 +1,98 @@
+﻿[
+    {
+        "AnimalName": "Bear",
+        "ImgSource":"https://images.unsplash.com/photo-1675919151762-62a4a40c7baa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=676&q=80",
+        "ImgAltText":"A bear with its cub standing next to a tree",
+        "Category": "Scandinavian"
+    },
+    {
+        "AnimalName": "Parrot",
+        "ImgSource":"https://images.unsplash.com/photo-1511823794984-b87716139b88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=696&q=80",
+        "ImgAltText":"Yellow parrot holding something small",
+        "Category": "Exotic"
+    },
+    {
+        "AnimalName": "Raindeer",
+        "ImgSource":"https://images.unsplash.com/photo-1615410106225-98a345c60fc7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "ImgAltText":"Raindeers relaxing on a field",
+        "Category": "Scandinavian"
+    },
+    {
+        "AnimalName": "Elk",
+        "ImgSource":"https://images.unsplash.com/photo-1543946207-39bd91e70ca7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "ImgAltText":"Elk in dark nature setting",
+        "Category": "Scandinavian"
+    },
+    {
+        "AnimalName": "Hare",
+        "ImgSource":"https://images.unsplash.com/photo-1622015910572-48dc37dcce47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "ImgAltText":"Two hares jumping against each other",
+        "Category": "Scandinavian"
+    },
+    {
+        "AnimalName": "Elephant",
+        "ImgSource":"https://images.unsplash.com/photo-1564760055775-d63b17a55c44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1477&q=80",
+        "ImgAltText":"Two elephants with a beautiful sunset in the background",
+        "Category": "Exotic"
+    },
+    {
+        "AnimalName": "Zebra",
+        "ImgSource":"https://images.unsplash.com/photo-1579926301332-7bcf0bc56109?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "ImgAltText":"A zebra grazing on a field",
+        "Category": "Exotic"
+    },
+    {
+        "AnimalName": "Lion",
+        "ImgSource":"https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=786&q=80",
+        "ImgAltText":"Majestic lion with black background",
+        "Category": "Exotic"
+    },
+    {
+        "AnimalName": "White Lion",
+        "ImgSource":"https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "ImgAltText":"Majestic white lion",
+        "Category": "Exotic"
+    },
+    {
+        "AnimalName": "Tiger",
+        "ImgSource":"https://images.unsplash.com/photo-1615963244664-5b845b2025ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+        "ImgAltText":"Tiger with open mouth",
+        "Category": "Exotic"
+    },
+    {
+        "AnimalName": "Tiger",
+        "ImgSource":"https://images.unsplash.com/photo-1602491453631-e2a5ad90a131?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80",
+        "ImgAltText":"Tiger with dark exotic background",
+        "Category": "Exotic"
+    },
+    {
+        "AnimalName": "Boa",
+        "ImgSource":"https://images.unsplash.com/photo-1570741066052-817c6de995c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80",
+        "ImgAltText":"Boa constrictor",
+        "Category": "Exotic"
+    },
+    {
+        "AnimalName": "Cobra",
+        "ImgSource":"https://images.unsplash.com/photo-1531386151447-fd76ad50012f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "ImgAltText":"An alert cobra on grass",
+        "Category": "Exotic"
+    },
+    {
+        "AnimalName": "Python",
+        "ImgSource":"https://images.unsplash.com/photo-1528158222524-d4d912d2e208?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2040&q=80",
+        "ImgAltText":"A python coiled over a branch",
+        "Category": "Exotic"
+    },
+    {
+        "AnimalName": "Ladybug",
+        "ImgSource":"https://images.unsplash.com/photo-1596733963051-36b8b6683850?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "ImgAltText":"A marigold on a green leaf",
+        "Category": "Scandinavian"
+    },
+    {
+        "AnimalName": "Ladybug",
+        "ImgSource":"https://images.unsplash.com/photo-1611504262701-8a48422da4a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=681&q=80",
+        "ImgAltText":"A wild boar in the forest",
+        "Category": "Scandinavian"
+    }
+]

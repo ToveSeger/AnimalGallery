@@ -1,0 +1,17 @@
+﻿
+.home{
+    padding-top:10rem;
+    background-image:url(https://images.unsplash.com/photo-1491147334573-44cbb4602074?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    .buttonContainer{
+        max-width:90%;
+        margin:0 auto;
+        justify-content: center;
+        display:flex;
+        flex-wrap: wrap;
+        gap:2rem;
+    }
+}
