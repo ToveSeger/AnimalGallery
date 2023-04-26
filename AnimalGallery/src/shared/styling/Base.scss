@@ -1,8 +1,9 @@
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Tilt+Prism&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Tilt+Prism&display=swap&family=Source+Sans+Pro&display=swap');
 
 //Fonts
 $basefont:'Inter', sans-serif;
 $contrastFont:'Tilt Prism', cursive;
+$navFont:'Source Sans Pro', sans-serif;
 
 //Sizes
 $txt-xl: clamp(1rem, 4rem, 8rem);

@@ -1,4 +1,4 @@
-@import "../../shared/Base.scss";
+@import "../../../shared/styling/Base.scss";
 
 .btn{
     border-radius: $rounded-corners;
@@ -7,9 +7,10 @@
     max-width:38rem;
     min-height: 10rem;
     box-sizing: border-box;
-    background-color:$bg-color-mint-green;
+    // background-color:$bg-color-mint-green;
+    background-color: rgb(13, 75, 13);
     text-decoration: none;
-    color:black;
+    color:white;
 
     p{
         font-family: $contrastFont;

@@ -14,7 +14,6 @@ function App() {
         <Route path="/scandinavian" element={<Scandinavian/>}/>
         <Route path="*" element={<NoMatch/>} />
       </Routes>
-      {/* <AnimalContent className={styles.animalGallery} animalList={Animals}/> */}
     </div>
   );
 }

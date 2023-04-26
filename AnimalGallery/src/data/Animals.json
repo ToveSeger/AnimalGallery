@@ -25,7 +25,7 @@
     },
     {
         "AnimalName": "Hare",
-        "ImgSource":"https://images.unsplash.com/photo-1622015910572-48dc37dcce47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "ImgSource":"https://images.unsplash.com/photo-1630514168444-69eaf2ed8089?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aGFyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
         "ImgAltText":"Two hares jumping against each other",
         "Category": "Scandinavian"
     },
@@ -85,12 +85,12 @@
     },
     {
         "AnimalName": "Ladybug",
-        "ImgSource":"https://images.unsplash.com/photo-1596733963051-36b8b6683850?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "ImgSource":"https://images.unsplash.com/photo-1622880474994-dbf749088e8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGxhZHlidWd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
         "ImgAltText":"A marigold on a green leaf",
         "Category": "Scandinavian"
     },
     {
-        "AnimalName": "Ladybug",
+        "AnimalName": "Wild boar",
         "ImgSource":"https://images.unsplash.com/photo-1611504262701-8a48422da4a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=681&q=80",
         "ImgAltText":"A wild boar in the forest",
         "Category": "Scandinavian"

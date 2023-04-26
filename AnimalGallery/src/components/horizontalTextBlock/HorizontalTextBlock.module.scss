@@ -1,12 +1,14 @@
-@import "../../shared/Base.scss";
+@import "../../shared/styling/Base.scss";
 
 .textBlockContainer{
     width:50vw;
-    height: 10rem;
+    height: 6rem;
     margin:0 auto 5rem;
     box-sizing: border-box;
     padding:2rem;
-    background-color: $bg-color-pink;
+    // background-color: $bg-color-pink;
+    background-color: rgb(13, 75, 13);
+    color:white;
     text-align: center;
     align-items: center;
     justify-content: center;

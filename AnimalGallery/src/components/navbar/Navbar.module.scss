@@ -1,0 +1,16 @@
+@import "../../shared/styling/Base.scss";
+.navbar{
+    height:10rem;
+    display: flex;
+    align-items: center;
+    background-color: rgb(13, 75, 13);
+    color:white;
+    font-family:$navFont;
+    font-size: 20px;
+    padding:1rem;
+
+    .logo{
+        height:115px;
+        border:2px solid gold;
+    }
+}
