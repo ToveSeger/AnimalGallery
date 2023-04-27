@@ -1,0 +1,15 @@
+@import "../../shared//styling/Base.scss";
+
+.contact{
+    .hero{
+        width:100vw;
+        height:65vh;
+        overflow: hidden;
+
+        .heroImg{
+            width: 100%;
+            transform:translateY(-35%);
+        }
+    }
+
+}

@@ -1,0 +1,45 @@
+@import "../../shared//styling//Base.scss";
+
+.footer{
+    // position: relative;
+    // bottom:0;
+    // right:0;
+    // left:0;
+    margin-top:2rem;
+    background-color: black;
+    color:white;
+    height:10rem;
+    display: flex;
+    gap:4rem;
+    align-items: center;
+    justify-content: center;
+    font-size: $txt-s;
+
+    .companyDescription{
+        display: flex;
+        flex-direction: column;
+        max-width:15rem;
+        .companyName{
+            font-size: $txt-article;
+            margin:0;
+            display: flex;
+            gap:0.1rem;
+            align-items: center;
+        }
+    }
+
+    .address, .contact{
+        display: flex;
+        flex-direction: column;
+        p{
+            margin:0.1rem;
+        }
+    }
+
+    .footerLogos{
+        margin-top: 1rem;;
+        font-size: 24px;
+        display: flex;
+        gap:1rem;
+    }
+}

@@ -1,0 +1,33 @@
+@import "../../shared/styling/Base.scss";
+
+.drawerContainer{
+    display: flex;
+    flex-direction: column;
+    font-size: $txt-m;
+    position:absolute;
+    top:0;
+    right: 0;
+    height: 100vh;
+    width:20vw;
+    padding:3rem 1rem;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    .dismissButton{
+        position: absolute;
+        top:1rem;
+        right:1rem;
+    }
+
+    .snailEyes{
+        font-size: $txt-xxl;
+        position:absolute;
+        bottom:-2.2rem;
+        left:50%;
+        transform: translateX(-50%);
+    }
+}

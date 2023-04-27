@@ -1,4 +1,8 @@
-﻿.cardContainer{
-    border:2px solid black;
-    border-radius: 5%;
+﻿@import "../../shared/styling/Base.scss";
+
+.cardContainer{
+    border:2px solid $color-lightGray;
+    border-radius: 5px;
+    width:fit-content;
+    padding:1rem;
 }

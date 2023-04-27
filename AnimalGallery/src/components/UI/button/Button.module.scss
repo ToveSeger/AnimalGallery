@@ -1,0 +1,10 @@
+@import "../../../shared/styling/Base.scss";
+
+.button{
+    font-size: $txt-label;
+    width:6rem;
+    padding:0.3rem;
+    background-color: white;
+    border: 1px solid $color-lightGray;
+    border-radius: $rounded-corners;
+}

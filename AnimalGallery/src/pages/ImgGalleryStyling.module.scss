@@ -1,5 +1,5 @@
 .galleryWrapper{
-    margin-top:2rem;
+    // margin-top:10rem;
     display: flex;
     flex-direction:column;
     gap:2rem;
@@ -7,8 +7,24 @@
     flex-wrap: wrap;
     flex-basis: 40%;
 
-    img{
-        height: 40rem;
+    .hero{
+        width:100vw;
+        height:65vh;
+        overflow: hidden;
+
+        .heroImg{
+            width: 100%;
+            &.scandinavian{
+                transform:translateY(-30%);
+            }
+            &.exotic{
+                transform:translateY(-20%);
+            }
+        }
+    }
+
+    .textBlock{
+        margin:0 auto;
     }
 
     .animalItem{
@@ -16,6 +32,10 @@
         gap:2rem;
         max-width: 80%;
         margin:0 auto;
+
+        .animalItemImg{
+            height: 40rem;
+        }
         .animalText{
             display:flex;
             align-items:center;

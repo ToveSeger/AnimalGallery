@@ -1,0 +1,45 @@
+@import "../../../shared/styling/Base.scss";
+
+.card{
+    position: relative;
+    border-radius: 50px;
+    padding:3rem;
+    min-width:10rem;
+    max-width:35rem;
+    min-height: 10rem;
+    box-sizing: border-box;
+    // background-color:$bg-color-mint-green;
+    // background-color: rgb(13, 75, 13);
+    background-color:$bg-color-transparent-green;
+    text-decoration: none;
+    color:white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+    p{
+        font-family: $buttonFont;
+        text-align: center;
+        font-size: $txt-xl;
+        max-width:100%;
+        overflow-wrap: break-word;
+        margin:0;
+    }
+
+
+    .sticker{
+        font-size: 84px;
+        position:absolute;
+    }
+
+    .left{
+        left:0;
+    }
+
+    .right{
+        right:0;
+    }
+
+    .center{
+        left:50%;
+        transform:translateX(-50%);
+    }
+}

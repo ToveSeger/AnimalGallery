@@ -1,7 +1,10 @@
 ﻿import { Divider } from "../../components/UI/divider/Divider";
 import { Navbar } from "../../components/navbar/Navbar";
 import Animals from "../../data/Animals.json";
+import DummyText from "../../data/DummyText.json";
 import styles from "../ImgGalleryStyling.module.scss";
+import heroImg from "../../shared/img/scandinavian_hero.jpg";
+import { TextBlock } from "../../components/UI/textBlock/TextBlock";
 
 export const Scandinavian = () => {
   const scandinavianAnimals=Animals.filter(animal =>{
@@ -10,21 +13,20 @@ export const Scandinavian = () => {
 
   return (
     <>
-    <Navbar/>
       <div className={styles.galleryWrapper}>
+        <main className={styles.hero}>
+          <img className={`${styles.heroImg} ${styles.scandinavian}`} src={heroImg} alt="Raindeers" />
+        </main>
+        <TextBlock className={styles.textBlock} Heading={DummyText.DummyHeading1} Text={DummyText.DummyText100}/>
         {scandinavianAnimals.map((animal, index)=>
         <>
         <div className={index%2==0?styles.animalItem: `${styles.animalItem} ${styles.reverse}`} key={index}>
-          <img src={animal.ImgSource} alt={animal.ImgAltText}/>
-          <p className={styles.animalText}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Expedita ipsa totam eveniet exercitationem aspernatur blanditiis
-            deserunt voluptatem nihil error velit, hic nisi enim distinctio optio
-            incidunt debitis ipsam quidem, esse accusamus eaque dolores iste?
-            Cupiditate omnis quidem enim dolorum assumenda
-            incidunt minus necessitatibus hic quod sunt neque, iure nemo iste?
-          </p>
+          <img className={styles.animalItemImg} src={animal.ImgSource} alt={animal.ImgAltText}/>
+          <p className={styles.animalText}>{DummyText.DummyText50}</p>
         </div>
-        <Divider/>
+        {index!=scandinavianAnimals.length-1&&
+          <Divider/>
+        }
         </>
         )
       }

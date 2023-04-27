@@ -1,16 +1,51 @@
 @import "../../shared/styling/Base.scss";
 .navbar{
-    height:10rem;
+    // height:10rem;
+    // display: flex;
+    // align-items: center;
+    // // background-color:#cb823c;
+    // color:white;
+    // font-family:$navFont;
+    // font-size: 20px;
+    // padding:1rem;
+    position: absolute;
+    z-index: 1;
+    top:0;
     display: flex;
-    align-items: center;
-    background-color: rgb(13, 75, 13);
-    color:white;
-    font-family:$navFont;
-    font-size: 20px;
-    padding:1rem;
+    justify-content: space-between;
+    width:100vw;
+    padding:2rem;
+    .menu{
+        background-color: white;
+        border-radius:5px;
+        border:none;
+        font-size: $txt-m;
+        font-family: $buttonFont;
+        margin-bottom:4rem;
+        height: fit-content;
+    }
 
     .logo{
-        height:115px;
-        border:2px solid gold;
+        background-color: white;
+        border-radius:5px;
+        transform:rotate(-20deg);
+        text-decoration: none;
+        color:black;
+        font-family: $contrastFont;
+        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        padding:0.5rem;
+
+        .camera{
+            width:fit-content;
+            margin:0 auto;
+            font-size: $txt-m;
+        }
+        p{
+            font-size: $txt-logoText;
+            margin:0;
+        }
     }
 }

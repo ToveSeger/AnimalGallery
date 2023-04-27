@@ -1,0 +1,19 @@
+@import "../../shared//styling/Base.scss";
+
+.noMatch{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: $txt-xl;
+
+    p{
+        margin:0;
+    }
+    .textBlock{
+        margin-bottom:2rem;
+    }
+
+}
