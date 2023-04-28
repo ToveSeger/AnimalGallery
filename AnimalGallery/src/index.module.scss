@@ -1,7 +1,11 @@
+@import "./shared/styling/Base.scss";
+
 *{
     box-sizing: border-box;
 }
 
 body{
+    font-family: $basefont;
+    position: relative;
     margin:0;
 }

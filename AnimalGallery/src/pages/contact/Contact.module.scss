@@ -12,4 +12,22 @@
         }
     }
 
+    .heading{
+        font-size: $txt-l;
+        width:fit-content;
+        margin:1rem auto;
+    }
+
+    .afterSubmitCard{
+        padding:0 5rem;
+        text-align: center;
+        margin:8rem auto;
+        font-size: $txt-l;
+        font-weight: 600;
+
+        .thumbsUp{
+            font-size: $txt-xxl;
+        }
+    }
+
 }

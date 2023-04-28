@@ -1,30 +1,32 @@
+import { IModalProps } from "../../../interfaces/IModalProps";
 import { Button } from "../button/Button";
 import styles from './Modal.module.scss'
 import ReactDOM from 'react-dom';
 
 
-const Backdrop= (props:any)=>{
+const Backdrop= (props:IModalProps)=>{
     return (
-        <div onClick={props.onDismiss} className={styles.backdrop}>
+        <div onClick={props.OnDismiss} className={styles.backdrop}>
         </div>
         )
 };
 
-const Overlay= (props:any)=>{
+const Overlay= (props:IModalProps)=>{
+    console.log(props)
     return (
         <div className={styles.modal}>
             <p className={styles.title}>{props.Title}</p>
             <p>{props.Message}</p>
-            <Button className= {styles.button} method={props.onDismiss}>Ok</Button>
+            <Button className= {styles.button} method={props.OnDismiss}>Ok</Button>
         </div>
         )
 };
 
-export const Modal = (props:any) => {
+export const Modal = (props:IModalProps) => {
     return (
         <>
-            {ReactDOM.createPortal(<Backdrop onDismiss={props.onDismiss}/>, document.getElementById('backdrop-root') as HTMLElement)}
-            {ReactDOM.createPortal(<Overlay Title={props.Title} Message={props.Message} onDismiss={props.onDismiss}/>, document.getElementById('overlay-root') as HTMLElement)}
-       </>
+            {ReactDOM.createPortal(<Backdrop OnDismiss={props.OnDismiss}/>, document.getElementById('backdrop-root') as HTMLElement)}
+            {ReactDOM.createPortal(<Overlay Title={props.Title} Message={props.Message} OnDismiss={props.OnDismiss} />, document.getElementById('overlay-root') as HTMLElement)}
+        </>
   )
 }

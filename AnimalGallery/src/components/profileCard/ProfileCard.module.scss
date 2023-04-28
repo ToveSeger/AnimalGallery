@@ -1,0 +1,15 @@
+@import "../../shared/styling/Base.scss";
+
+
+    .profileCard{
+        display: flex;
+
+        img{
+            max-width:225px;
+        }
+        .textSection{
+            .Name{
+                font-size: $txt-l;
+            }
+        }
+    }

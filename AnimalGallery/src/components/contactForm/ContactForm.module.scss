@@ -1,5 +1,6 @@
 @import "../../shared/styling/Base.scss";
 
+
 .form{
     font-size:$txt-label;
     margin:3rem auto;
@@ -15,7 +16,6 @@
 
     .formItemContainer{
         margin:0 auto;
-        position:relative;
         min-width:80%;
         display: flex;
         flex-direction: column;
@@ -24,25 +24,23 @@
         .formItem{
             padding:0.8rem 0;
             display: flex;
+            justify-content: space-between;
             gap:1rem;
-            align-items: center;
 
-            input, select{
+            input, select, textarea{
                 border:none;
                 border-radius: $rounded-corners;
-                height: 3rem;
+                height: 2rem;
                 width:15rem;
-                position:absolute;
-                right:0;
 
                 &.note{
-                    margin-top: 4rem;
-                    height: 6rem;
+                    height:6rem;
                 }
             }
 
+
             .invalidInput{
-                border-color:red;
+                background-color:rgb(240, 107, 107);
             }
         }
 
@@ -51,16 +49,13 @@
         }
 
     }
-    .submitButton{
-        margin-top:4rem;
-        position: relative;
-        left:72%;
-        // position: absolute;
-        // right:1rem;
-        // bottom:1rem;
+    .submitButtonContainer{
+        display:flex;
+        justify-content: flex-end;
     }
 
 }
+
 @media only screen and (max-width: 650px) {
     .formItemContainer{
         min-width: 80% !important;
