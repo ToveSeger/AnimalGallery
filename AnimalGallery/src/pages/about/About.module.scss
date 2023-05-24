@@ -2,14 +2,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    .hero{
-        width:100vw;
-        height:65vh;
-        overflow: hidden;
 
-        .heroImg{
-            width: 100%;
-            transform:translateY(-35%);
-        }
+    .profiles{
+        max-width: 90vw;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap:1rem;
+        justify-content: center;
+    }
+
+    .heroImg{
+        transform: translateY(-35%);
     }
 }

@@ -1,49 +1,54 @@
 .galleryWrapper{
-    // margin-top:10rem;
-    display: flex;
-    flex-direction:column;
-    gap:2rem;
+    // display: flex;
+    // flex-direction:column;
+    // gap:2rem;
+    // max-width: 90vw;
+    // flex-wrap: wrap;
+    // flex-basis: 40%;
+    // border:solid;
+    margin:0 auto;
     max-width: 100vw;
-    flex-wrap: wrap;
-    flex-basis: 40%;
-
-    .hero{
-        width:100vw;
-        height:65vh;
-        overflow: hidden;
-
-        .heroImg{
-            width: 100%;
-            &.scandinavian{
-                transform:translateY(-30%);
-            }
-            &.exotic{
-                transform:translateY(-20%);
-            }
+    .scandinavianHeroImg{
+            transform:translateY(-30%);
         }
-    }
+        .exoticHeroImg{
+            transform:translateY(-20%);
+        }
+    
 
     .textBlock{
-        margin:0 auto;
+        margin:1rem auto 4rem auto;
     }
 
-    .animalItem{
+    .animalItemContainer{
         display:flex;
-        gap:2rem;
-        max-width: 80%;
+        flex-direction: column;
+        align-items: center;
         margin:0 auto;
+        max-width:90%;
+        gap:2rem;
 
-        .animalItemImg{
-            height: 40rem;
-        }
-        .animalText{
+        .animalItem{
             display:flex;
-            align-items:center;
-            max-width: 30rem;
+            flex-wrap: wrap;
+            gap:2rem;
+            // max-width: 80%;
+            margin:0 auto;
+            justify-content: center;
+    
+            .animalItemImg{
+                max-width: 80%;
+            }
+            .animalText{
+                display:flex;
+                align-items:center;
+                max-width: 30rem;
+            }
         }
-    }
-    .reverse{
-        flex-direction: row-reverse;
+        .reverse{
+            flex-direction: row-reverse;
+        }
+
     }
 
 }

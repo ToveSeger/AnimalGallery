@@ -6,6 +6,7 @@ import { Card } from "../../components/card/Card";
 import { useState } from "react";
 import { ContactForm } from "../../components/contactForm/ContactForm";
 import {IoThumbsUpOutline} from "react-icons/io5"
+import { Hero } from "../../components/hero/Hero";
 
 export const Contact = () => {
     const [showSubmitMessage, setShowSubmitMessage]=useState(false);
@@ -18,9 +19,7 @@ export const Contact = () => {
 
   return (
     <div className={styles.contact}>
-        <main className={styles.hero}>
-          <img className={`${styles.heroImg} ${styles.scandinavian}`} src={heroImg} alt="Black and brown rotary phone" />
-        </main>
+        <Hero className={styles.heroImg} heroImg={heroImg} altText={"Black and brown rotary phone"}/>
         {!showSubmitMessage&&
         <>
           <h1 className={styles.heading}>Let's talk!</h1>

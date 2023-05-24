@@ -4,18 +4,19 @@ import DummyText from "../../data/DummyText.json";
 import Profiles from "../../data/Profiles.json";
 import {ProfileCard} from "../../components/profileCard/ProfileCard";
 import heroImg from "../../shared/img/about_hero.jpg";
+import { Hero } from "../../components/hero/Hero";
 
 export const About = () => {
   return (
     <div className={styles.about}>
-      <main className={styles.hero}>
-          <img className={`${styles.heroImg} ${styles.exotic}`} src={heroImg} alt="Majestic lion" />
-        </main>
+      <Hero className={styles.heroImg} heroImg={heroImg} altText={"Image saying Passion Led Us Here"}/>
       <TextBlock className={styles.textBlock} Heading={DummyText.DummyHeading1} Text={DummyText.DummyText100}/>
-      {Profiles.map((profile, index)=>
-          <ProfileCard Name={profile.Name} ImgPath={profile.ImgPath} ImgAltText={profile.ImgAltText} Text={profile.Text}/>
-      )
-      }
+      <div className={styles.profiles}>
+        {Profiles.map((profile, index)=>
+            <ProfileCard Name={profile.Name} ImgPath={profile.ImgPath} ImgAltText={profile.ImgAltText} Text={profile.Text}/>
+        )
+        }
+      </div>
     </div>
   )
 }

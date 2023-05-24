@@ -7,7 +7,7 @@
     },
     {
         "AnimalName": "Parrot",
-        "ImgSource":"https://images.unsplash.com/photo-1511823794984-b87716139b88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=696&q=80",
+        "ImgSource":"https://images.unsplash.com/photo-1511823794984-b87716139b88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
         "ImgAltText":"Yellow parrot holding something small",
         "Category": "Exotic"
     },
@@ -31,8 +31,8 @@
     },
     {
         "AnimalName": "Elephant",
-        "ImgSource":"https://images.unsplash.com/photo-1564760055775-d63b17a55c44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1477&q=80",
-        "ImgAltText":"Two elephants with a beautiful sunset in the background",
+        "ImgSource":"https://images.unsplash.com/photo-1603632076161-5836b146638c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=687&q=80",
+        "ImgAltText":"Two elephants on a brown field",
         "Category": "Exotic"
     },
     {
@@ -55,13 +55,13 @@
     },
     {
         "AnimalName": "Tiger",
-        "ImgSource":"https://images.unsplash.com/photo-1615963244664-5b845b2025ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+        "ImgSource":"https://images.unsplash.com/photo-1615963244664-5b845b2025ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
         "ImgAltText":"Tiger with open mouth",
         "Category": "Exotic"
     },
     {
         "AnimalName": "Tiger",
-        "ImgSource":"https://images.unsplash.com/photo-1602491453631-e2a5ad90a131?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80",
+        "ImgSource":"https://images.unsplash.com/photo-1602491453631-e2a5ad90a131?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
         "ImgAltText":"Tiger with dark exotic background",
         "Category": "Exotic"
     },
@@ -79,7 +79,7 @@
     },
     {
         "AnimalName": "Python",
-        "ImgSource":"https://images.unsplash.com/photo-1528158222524-d4d912d2e208?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2040&q=80",
+        "ImgSource":"https://images.unsplash.com/photo-1595703013627-21389517e011?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JlZW4lMjBzbmFrZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=687&q=80",
         "ImgAltText":"A python coiled over a branch",
         "Category": "Exotic"
     },

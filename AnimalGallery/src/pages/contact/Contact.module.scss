@@ -1,17 +1,6 @@
 @import "../../shared//styling/Base.scss";
 
 .contact{
-    .hero{
-        width:100vw;
-        height:65vh;
-        overflow: hidden;
-
-        .heroImg{
-            width: 100%;
-            transform:translateY(-35%);
-        }
-    }
-
     .heading{
         font-size: $txt-l;
         width:fit-content;
@@ -28,6 +17,10 @@
         .thumbsUp{
             font-size: $txt-xxl;
         }
+    }
+ 
+    .heroImg{
+        transform:translateY(-35%);
     }
 
 }

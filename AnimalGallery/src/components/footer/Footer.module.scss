@@ -5,41 +5,58 @@
     // bottom:0;
     // right:0;
     // left:0;
-    margin-top:2rem;
+    margin-top: 2rem;
     background-color: black;
     color:white;
-    height:10rem;
-    display: flex;
-    gap:4rem;
-    align-items: center;
-    justify-content: center;
+    min-height:10rem;
     font-size: $txt-s;
-
-    .companyDescription{
+    
+    .contentContainer{
+        padding:2rem;
         display: flex;
-        flex-direction: column;
-        max-width:15rem;
-        .companyName{
-            font-size: $txt-article;
-            margin:0;
+        flex-wrap: wrap;
+        gap:4rem;
+        align-items: center;
+        justify-content: center;
+
+        .companyDescription{
+            // display: flex;
+            // flex-direction: column;
+            max-width:15rem;
+            .companyName{
+                font-size: $txt-article;
+                margin:0;
+                display: flex;
+                gap:0.1rem;
+                align-items: center;
+            }
+        }
+    
+        .address, .contact{
             display: flex;
-            gap:0.1rem;
-            align-items: center;
+            flex-direction: column;
+
+            p{
+                margin:0.1rem;
+            }
+        }
+    
+        .footerLogos{
+            margin-top: 1rem;;
+            font-size: 24px;
+            display: flex;
+            gap:1rem;
         }
     }
 
-    .address, .contact{
-        display: flex;
+}
+
+@media only screen and (max-width: 650px) {
+    .contentContainer{
+        width:75%;
+        margin:0 auto;
         flex-direction: column;
-        p{
-            margin:0.1rem;
-        }
-    }
-
-    .footerLogos{
-        margin-top: 1rem;;
-        font-size: 24px;
-        display: flex;
-        gap:1rem;
+        gap: 1rem !important;
+        align-items: flex-start !important;
     }
 }

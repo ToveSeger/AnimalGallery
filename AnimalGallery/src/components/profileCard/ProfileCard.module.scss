@@ -3,11 +3,17 @@
 
     .profileCard{
         display: flex;
+        max-width:500px;
+        padding:1rem;
 
         img{
-            max-width:225px;
+            max-height:350px;
+            margin-right:1rem;
         }
         .textSection{
+            // border:solid;
+            max-width: 50%;
+            overflow-wrap: break-word;
             .Name{
                 font-size: $txt-l;
             }
