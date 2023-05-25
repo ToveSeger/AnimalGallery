@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa741055.css",
-    "main.js": "/static/js/main.7b189853.js",
+    "main.css": "/static/css/main.cb12234e.css",
+    "main.js": "/static/js/main.2af4a069.js",
     "static/js/787.723edc56.chunk.js": "/static/js/787.723edc56.chunk.js",
-    "static/media/scandinavian_hero.jpg": "/static/media/scandinavian_hero.f89124fa2e74a20d5a84.jpg",
-    "static/media/exotic_hero.jpg": "/static/media/exotic_hero.90be8d9bc3f402cef31b.jpg",
-    "static/media/contact_hero.jpg": "/static/media/contact_hero.8748094737881aa063c2.jpg",
+    "static/media/about_hero.jpg": "/static/media/about_hero.3a16f7e94b1915fd673d.jpg",
+    "static/media/scandinavian_hero.jpg": "/static/media/scandinavian_hero.c97e0de83117c4f78f65.jpg",
+    "static/media/contact_hero.jpg": "/static/media/contact_hero.bf47bee7322bd4b99386.jpg",
+    "static/media/exotic_hero.jpg": "/static/media/exotic_hero.58e91078d3dabe98d93d.jpg",
+    "static/media/lion.jpg": "/static/media/lion.25fa22ac36f501181a8b.jpg",
+    "static/media/fox.jpg": "/static/media/fox.5d7fcda015139c75edce.jpg",
     "index.html": "/index.html",
-    "main.fa741055.css.map": "/static/css/main.fa741055.css.map",
-    "main.7b189853.js.map": "/static/js/main.7b189853.js.map",
+    "main.cb12234e.css.map": "/static/css/main.cb12234e.css.map",
+    "main.2af4a069.js.map": "/static/js/main.2af4a069.js.map",
     "787.723edc56.chunk.js.map": "/static/js/787.723edc56.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa741055.css",
-    "static/js/main.7b189853.js"
+    "static/css/main.cb12234e.css",
+    "static/js/main.2af4a069.js"
   ]
 }

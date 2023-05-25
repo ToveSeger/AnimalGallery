@@ -9,7 +9,7 @@
         height: fit-content;
 
         .imgWrapper{
-            height:clamp(20rem, calc(30rem - 10vh),30rem);
+            height:calc(30rem - 10vh);
             img{
                 max-width: 100%;
                 max-height: 100%;
@@ -23,9 +23,4 @@
                 font-size: $txt-l;
             }
         }
-}
-@media only screen and (max-width: 650px) {
-    .profileCard{
-        flex-direction: column;
-    }
 }
