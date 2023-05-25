@@ -1,0 +1,11 @@
+@import "../../../shared/styling/Base.scss";
+
+.headingBlockContainer{
+    max-width:80vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: $txt-xl;
+    max-width: 100%;  
+}

@@ -16,8 +16,9 @@
             }
         }
         .textSection{
-            max-width: 50%;
+            max-width: 80%;
             overflow-wrap: break-word;
+            text-align: center;
             .Name{
                 font-size: $txt-l;
             }

@@ -2,13 +2,13 @@
 
 export const ClickableCard = (props:any) => {
   const stickerPosition=()=>{
-    if(props.stickerPosition=="right"){
+    if(props.stickerPosition==="right"){
       return styles.right;
     }
-    if(props.stickerPosition=="left"){
+    if(props.stickerPosition==="left"){
       return styles.left;
     }
-    if(props.stickerPosition=="center"){
+    if(props.stickerPosition==="center"){
       return styles.center;
     }
   }

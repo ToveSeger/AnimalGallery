@@ -1,18 +1,32 @@
-﻿
+﻿@import "../../shared/styling/Base.scss";
+
 .home{
-    padding-top:10rem;
-    // background-image:url(https://images.unsplash.com/photo-1491147334573-44cbb4602074?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx);
-    // background-color:#ebf2d7;
+    background-image:url(https://images.unsplash.com/photo-1491147334573-44cbb4602074?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    padding-top: 10rem;
 
-    .buttonContainer{
-        max-width:90%;
-        margin:0 auto;
-        justify-content: center;
+    .homeContentContainer{
         display:flex;
         flex-wrap: wrap;
         gap:2rem;
+        justify-content: center;
+        max-width: 70%;
+        margin:2rem auto;
+
+        .card{
+            background-color: white;
+        }
+
+        .buttonContainer{
+            max-width:90%;
+            margin:0 auto;
+            justify-content: center;
+            display:flex;
+            flex-wrap: wrap;
+            flex-grow: 1;
+            gap:2rem;
+        }
     }
 }

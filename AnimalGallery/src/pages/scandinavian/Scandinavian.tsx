@@ -1,5 +1,4 @@
 ﻿import { Divider } from "../../components/UI/divider/Divider";
-import { Navbar } from "../../components/navbar/Navbar";
 import Animals from "../../data/Animals.json";
 import DummyText from "../../data/DummyText.json";
 import styles from "../ImgGalleryStyling.module.scss";

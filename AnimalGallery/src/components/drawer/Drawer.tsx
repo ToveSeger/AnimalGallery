@@ -8,6 +8,7 @@ export const Drawer = (props:any) => {
         <button className={styles.dismissButton} onClick={props.Dismiss}>
             <RxCross2/>
         </button>
+        <a href="/">Home</a>
         <a href="/about">About us</a>
         <a href="/contact">Contact</a>
         <section className={styles.snailEyes}>

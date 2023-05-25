@@ -1,7 +1,5 @@
 import styles from "./Contact.module.scss";
 import heroImg from "../../shared/img/contact_hero.jpg";
-import { TextBlock } from "../../components/textComponents/textBlock/TextBlock";
-import DummyText from "../../data/DummyText.json";
 import { Card } from "../../components/cardComponents/card/Card";
 import { useState } from "react";
 import { ContactForm } from "../../components/contactForm/ContactForm";

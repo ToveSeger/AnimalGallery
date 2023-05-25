@@ -3,8 +3,10 @@ import { Card } from '../card/Card';
 import styles from "./ProfileCard.module.scss";
 
 export const ProfileCard = (props:IProfileCard) => {
+  const classes=`${styles.profileCard} ${props.className}`;
+
   return (
-        <Card className={styles.profileCard}>
+        <Card className={classes}>
           <div className={styles.imgWrapper}>
             <img src={props.ImgPath} alt={props.ImgAltText}/>
           </div>
