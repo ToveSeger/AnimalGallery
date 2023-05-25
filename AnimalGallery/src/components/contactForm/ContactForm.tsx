@@ -21,26 +21,26 @@ export const ContactForm = (props:any) => {
     e.preventDefault();
     let error=false;
 
-    if(firstName.length==0){
+    if(firstName.length===0){
       setIsValidFirstName(false);
       error=true;
     }
-    if(lastName.length==0){
+    if(lastName.length===0){
       setIsValidLastName(false);
       error=true;
     }
-    if(email.length==6 || !email.includes("@")){
+    if(email.length===6 || !email.includes("@")){
       console.log(!email.includes("@"))
       setIsValidEmail(false);
       error=true;
       console.log(error)
     }
-    if (topic.length==0){
+    if (topic.length===0){
       setIsValidTopic(false);
       error=true;
 
     }
-    if (message.length==0){
+    if (message.length===0){
       setIsValidMessage(false);
       error=true;
 
