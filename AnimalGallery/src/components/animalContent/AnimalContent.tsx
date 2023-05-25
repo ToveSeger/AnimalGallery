@@ -1,5 +1,5 @@
 ﻿import styles from './AnimalContent.module.scss'
-import { Card } from '../card/Card'
+import { Card } from '../cardComponents/card/Card'
 import { IAnimal } from './IAnimal'
 
 export const AnimalContent = (props:any) => {

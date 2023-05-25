@@ -1,81 +1,83 @@
 @import "../../shared/styling/Base.scss";
 
-
-.form{
-    font-size:$txt-label;
-    margin:3rem auto;
-    display:flex;
-    flex-direction: column;
-    max-width:600px;
-    height: fit-content;
-    gap:1rem;
-    padding:2rem 2rem 4rem 2rem;
-    border-radius: $rounded-corners;
-    background-color: black;
-    color:white;
-
-    .formItemContainer{
-        margin:0 auto;
-        min-width:80%;
-        display: flex;
+.formContainer{
+    margin:0 1rem 0 1rem;
+    .form{
+        font-size:$txt-label;
+        margin:3rem auto;
+        display:flex;
         flex-direction: column;
+        max-width:600px;
+        height: fit-content;
         gap:1rem;
-
-        .formItem{
-            padding:0.8rem 0;
+        padding:2rem 2rem 4rem 2rem;
+        border-radius: $rounded-corners;
+        background-color: black;
+        color:white;
+    
+        .formItemContainer{
+            margin:0 auto;
+            min-width:80%;
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
             gap:1rem;
-
-            input, select, textarea{
-                border:none;
-                border-radius: $rounded-corners;
-                height: 2rem;
-                width:15rem;
-
-                &.note{
-                    height:6rem;
+    
+            .formItem{
+                padding:0.8rem 0;
+                display: flex;
+                justify-content: space-between;
+                gap:1rem;
+    
+                input, select, textarea{
+                    border:none;
+                    border-radius: $rounded-corners;
+                    height: 2rem;
+                    width:15rem;
+    
+                    &.note{
+                        height:6rem;
+                    }
+                }
+    
+    
+                .invalidInput{
+                    background-color:rgb(240, 107, 107);
                 }
             }
-
-
-            .invalidInput{
-                background-color:rgb(240, 107, 107);
+    
+            .errorMessage{
+                font-size:$txt-s;
+            }
+    
+        }
+        .submitButtonContainer{
+            display:flex;
+            justify-content: flex-end;
+        }
+    
+    }
+    
+    @media only screen and (max-width: 650px) {
+        .formItemContainer{
+            min-width: 80% !important;
+        .formItem{
+            flex-direction: column;
+            gap:0.2rem !important;
+            width:100%;
+    
+            input, select{
+                width:100% !important;
+                position:static !important;
             }
         }
-
-        .errorMessage{
-            font-size:$txt-s;
-        }
-
-    }
-    .submitButtonContainer{
-        display:flex;
-        justify-content: flex-end;
-    }
-
-}
-
-@media only screen and (max-width: 650px) {
-    .formItemContainer{
-        min-width: 80% !important;
-    .formItem{
-        flex-direction: column;
-        gap:0.2rem !important;
-        width:100%;
-
-        input, select{
-            width:100% !important;
-            position:static !important;
+        .submitButton{
+            width:90% !important;
+            margin-top: 1rem;
+            left:50%;
+            transform: translateX(-50%);
         }
     }
-    .submitButton{
-        width:90% !important;
-        margin-top: 1rem;
-        left:50%;
-        transform: translateX(-50%);
     }
-}
 }
 
 

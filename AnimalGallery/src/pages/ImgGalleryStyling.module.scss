@@ -1,20 +1,6 @@
 .galleryWrapper{
-    // display: flex;
-    // flex-direction:column;
-    // gap:2rem;
-    // max-width: 90vw;
-    // flex-wrap: wrap;
-    // flex-basis: 40%;
-    // border:solid;
     margin:0 auto;
     max-width: 100vw;
-    .scandinavianHeroImg{
-            transform:translateY(-30%);
-        }
-        .exoticHeroImg{
-            transform:translateY(-20%);
-        }
-    
 
     .textBlock{
         margin:1rem auto 4rem auto;
@@ -42,7 +28,7 @@
             .animalText{
                 display:flex;
                 align-items:center;
-                max-width: 30rem;
+                max-width: 80%;
             }
         }
         .reverse{

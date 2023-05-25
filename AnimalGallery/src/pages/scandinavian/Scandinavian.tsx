@@ -4,7 +4,7 @@ import Animals from "../../data/Animals.json";
 import DummyText from "../../data/DummyText.json";
 import styles from "../ImgGalleryStyling.module.scss";
 import heroImg from "../../shared/img/scandinavian_hero.jpg";
-import { TextBlock } from "../../components/UI/textBlock/TextBlock";
+import { TextBlock } from "../../components/textComponents/textBlock/TextBlock";
 import { Hero } from "../../components/hero/Hero";
 
 export const Scandinavian = () => {
@@ -20,11 +20,11 @@ export const Scandinavian = () => {
         <div className={styles.animalItemContainer}>
           {scandinavianAnimals.map((animal, index)=>
           <>
-          <div className={index%2==0?styles.animalItem: `${styles.animalItem} ${styles.reverse}`} key={index}>
+          <div className={index%2===0?styles.animalItem: `${styles.animalItem} ${styles.reverse}`} key={index}>
             <img className={styles.animalItemImg} src={animal.ImgSource} alt={animal.ImgAltText}/>
             <p className={styles.animalText}>{DummyText.DummyText50}</p>
           </div>
-          {index!=scandinavianAnimals.length-1&&
+          {index!==scandinavianAnimals.length-1&&
             <Divider/>
           }
           </>

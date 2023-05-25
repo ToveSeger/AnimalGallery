@@ -1,5 +1,5 @@
-﻿import { ClickableCard } from '../../components/UI/clickableCard/ClickableCard'
-import { HorizontalTextBlock } from '../../components/horizontalTextBlock/HorizontalTextBlock'
+﻿import { ClickableCard } from '../../components/cardComponents/clickableCard/ClickableCard'
+import { HorizontalTextBlock } from '../../components/textComponents/horizontalTextBlock/HorizontalTextBlock'
 import { Navbar } from '../../components/navbar/Navbar'
 import styles from './Home.module.scss'
 import { GiKoala, GiLadybug } from 'react-icons/gi';

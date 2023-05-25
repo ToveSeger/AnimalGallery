@@ -63,30 +63,30 @@ export const ContactForm = (props:any) => {
 
   const inputHandler=(e:any)=>{
     console.log(e.target.id)
-    if(e.target.id=="firstName"){
+    if(e.target.id==="firstName"){
       setFirstName(e.target.value.trim());
-      e.target.value.trim().length==0?setIsValidFirstName(false):setIsValidFirstName(true);
+      e.target.value.trim().length===0?setIsValidFirstName(false):setIsValidFirstName(true);
     }
-    if(e.target.id=="lastName"){
+    if(e.target.id==="lastName"){
       setLastName(e.target.value.trim());
-      e.target.value.trim().length==0?setIsValidLastName(false):setIsValidLastName(true);
+      e.target.value.trim().length===0?setIsValidLastName(false):setIsValidLastName(true);
     }
-    if(e.target.id=="email"){
+    if(e.target.id==="email"){
       setEmail(e.target.value.trim());
-      e.target.value.trim().length==0?setIsValidEmail(false):setIsValidEmail(true);
+      e.target.value.trim().length===0?setIsValidEmail(false):setIsValidEmail(true);
     }
-    if(e.target.id=="topic"){
+    if(e.target.id==="topic"){
       setTopic(e.target.value.trim());
-      e.target.value.trim().length==0?setIsValidTopic(false):setIsValidTopic(true);
+      e.target.value.trim().length===0?setIsValidTopic(false):setIsValidTopic(true);
     }
-    if(e.target.id=="message"){
+    if(e.target.id==="message"){
       setMessage(e.target.value.trim());
-      e.target.value.trim().length==0?setIsValidMessage(false):setIsValidMessage(true);
+      e.target.value.trim().length===0?setIsValidMessage(false):setIsValidMessage(true);
     }
   }
 
   return (
-    <>
+    <div className={styles.formContainer}>
     <form className={styles.form} onSubmit={nullCheck}>
       <div className={styles.formItemContainer}>
         <div className={styles.formItem}>
@@ -122,6 +122,6 @@ export const ContactForm = (props:any) => {
         </div>
       </div>
     </form>
-    </>
+    </div>
   )
 }

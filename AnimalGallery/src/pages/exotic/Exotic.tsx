@@ -3,7 +3,7 @@ import Animals from "../../data/Animals.json";
 import DummyText from "../../data/DummyText.json";
 import styles from "../ImgGalleryStyling.module.scss";
 import heroImg from "../../shared/img/exotic_hero.jpg";
-import { TextBlock } from "../../components/UI/textBlock/TextBlock";
+import { TextBlock } from "../../components/textComponents/textBlock/TextBlock";
 import { Hero } from "../../components/hero/Hero";
 
 export const Exotic = () => {

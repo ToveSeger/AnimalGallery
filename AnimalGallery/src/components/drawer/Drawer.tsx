@@ -5,9 +5,9 @@ import {GiSnailEyes} from "react-icons/gi";
 export const Drawer = (props:any) => {
   return (
     <div className={styles.drawerContainer}>
-        <a className={styles.dismissButton} onClick={props.Dismiss}>
+        <button className={styles.dismissButton} onClick={props.Dismiss}>
             <RxCross2/>
-        </a>
+        </button>
         <a href="/about">About us</a>
         <a href="/contact">Contact</a>
         <section className={styles.snailEyes}>

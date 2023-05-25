@@ -2,15 +2,18 @@
 
 .textBlock{
     display: flex;
-    gap:2rem;
+    gap:clamp(1rem, calc(1.8vw - 4px), 2.5rem);
     max-width: 75vw;
     flex-wrap: wrap;
 
     .heading{
+        margin:0.5rem;
+
         font-size:$txt-xl;
         width: 30rem;
     }
     .paragraph{
+        margin:0.5rem;
         font-size: $txt-article;
         width:40rem;
     }

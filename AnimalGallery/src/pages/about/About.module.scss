@@ -2,9 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 80%;
+    margin:0 auto;
 
     .profiles{
-        max-width: 90vw;
+        max-width: 100%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -12,7 +14,11 @@
         justify-content: center;
     }
 
-    .heroImg{
-        transform: translateY(-35%);
+    // .heroImg{
+    //     transform: translateY(-45%);
+    // }
+
+    .textBlock{
+        margin:2rem;
     }
 }

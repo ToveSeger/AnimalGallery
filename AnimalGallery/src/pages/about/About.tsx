@@ -1,8 +1,8 @@
-import { TextBlock } from "../../components/UI/textBlock/TextBlock";
+import { TextBlock } from "../../components/textComponents/textBlock/TextBlock";
 import styles from "./About.module.scss";
 import DummyText from "../../data/DummyText.json";
 import Profiles from "../../data/Profiles.json";
-import {ProfileCard} from "../../components/profileCard/ProfileCard";
+import {ProfileCard} from "../../components/cardComponents/profileCard/ProfileCard";
 import heroImg from "../../shared/img/about_hero.jpg";
 import { Hero } from "../../components/hero/Hero";
 
