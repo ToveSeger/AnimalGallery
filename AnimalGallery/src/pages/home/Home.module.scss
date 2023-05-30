@@ -4,19 +4,19 @@
     background-image:url(https://images.unsplash.com/photo-1491147334573-44cbb4602074?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    padding-top: 10rem;
-
+    padding: 10rem 2rem 4rem 2rem;
+    
     .homeContentContainer{
         display:flex;
         flex-wrap: wrap;
         gap:2rem;
         justify-content: center;
-        max-width: 70%;
-        margin:2rem auto;
-
+        margin:0 auto;
+        padding:2rem;
+        max-width: 90%;
+        
         .card{
-            background-color: white;       
+            background-color: white;
         }
 
         .buttonContainer{

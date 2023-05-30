@@ -14,7 +14,7 @@ export const Exotic = () => {
   return (
     <>
       <div className={styles.galleryWrapper}>
-        <Hero className={styles.exoticHeroImg} heroImg={heroImg} altText={"Majestic Lion"}/>
+        <Hero className={styles.exoticHeroImg} HeroImg={heroImg} AltText={"Majestic Lion"}/>
         <TextBlock className={styles.textBlock} Heading={DummyText.DummyHeading1} Text={DummyText.DummyText100}/>
         <div className={styles.animalItemContainer}>
             {exoticAnimals.map((animal, index)=>

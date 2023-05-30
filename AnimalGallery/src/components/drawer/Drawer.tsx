@@ -1,8 +1,9 @@
 import styles from "./Drawer.module.scss";
 import {RxCross2} from "react-icons/rx";
 import {GiSnailEyes} from "react-icons/gi";
+import IDrawer from "../../interfaces/IDrawer";
 
-export const Drawer = (props:any) => {
+export const Drawer = (props:IDrawer) => {
   return (
     <div className={styles.drawerContainer}>
         <button className={styles.dismissButton} onClick={props.Dismiss}>

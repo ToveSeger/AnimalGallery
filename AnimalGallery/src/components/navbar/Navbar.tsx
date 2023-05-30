@@ -3,7 +3,7 @@ import styles from "./Navbar.module.scss";
 import { useState } from "react";
 import { Drawer } from "../drawer/Drawer";
 import { Logo } from "../logo/Logo";
-export const Navbar = (props:any) => {
+export const Navbar = () => {
   const [menuisOpen, setMenuIsOpen]=useState(false);
   return (
     <div className={styles.navbar}>

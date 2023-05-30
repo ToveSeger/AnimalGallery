@@ -1,8 +1,11 @@
 ﻿@import "../../../shared/styling/Base.scss";
 
+a{
+    text-decoration: none;
+    color:inherit;
+}
 .cardContainer{
     border:2px solid $color-lightGray;
     border-radius: 5px;
-    width:fit-content;
     padding:1rem;
 }

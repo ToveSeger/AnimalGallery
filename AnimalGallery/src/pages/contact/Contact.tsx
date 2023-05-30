@@ -17,11 +17,11 @@ export const Contact = () => {
 
   return (
     <div className={styles.contact}>
-        <Hero className={styles.heroImg} heroImg={heroImg} altText={"Black and brown rotary phone"}/>
+        <Hero className={styles.heroImg} HeroImg={heroImg} AltText={"Black and brown rotary phone"}/>
         {!showSubmitMessage&&
         <>
           <h1 className={styles.heading}>Let's talk!</h1>
-          <ContactForm submitMessage={messageSender}/>
+          <ContactForm SubmitMessage={messageSender}/>
         </>
         }
       {showSubmitMessage&&

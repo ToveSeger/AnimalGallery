@@ -14,7 +14,7 @@ export const Scandinavian = () => {
   return (
     <>
       <div className={styles.galleryWrapper}>
-        <Hero className={styles.scandinavianHeroImg} heroImg={heroImg} altText={"Raindeers"} />
+        <Hero className={styles.scandinavianHeroImg} HeroImg={heroImg} AltText={"Raindeers"} />
         <TextBlock className={styles.textBlock} Heading={DummyText.DummyHeading1} Text={DummyText.DummyText100}/>
         <div className={styles.animalItemContainer}>
           {scandinavianAnimals.map((animal, index)=>

@@ -1,5 +1,6 @@
+import ITextBlock from "../../../interfaces/ITextBlock";
 import styles from "./TextBlock.module.scss";
-export const TextBlock = (props:any) => {
+export const TextBlock = (props:ITextBlock) => {
     const classes=`${styles.textBlock} ${props.className}`;
   return (
     <article className={classes}>

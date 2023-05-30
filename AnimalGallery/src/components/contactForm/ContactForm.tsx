@@ -3,8 +3,9 @@ import styles from "./ContactForm.module.scss";
 import {Modal} from "../UI/modal/Modal";
 import Topics from "../../data/Topics.json";
 import { Button } from "../UI/button/Button";
+import IContactForm from "../../interfaces/IContactForm";
 
-export const ContactForm = (props:any) => {
+export const ContactForm = (props:IContactForm) => {
     const [firstName, setFirstName]=useState("");
     const [lastName, setLastName]=useState("");
     const [email, setEmail]=useState("");
@@ -51,7 +52,7 @@ export const ContactForm = (props:any) => {
       setEmail("");
       setTopic("");
       setMessage("");
-      props.submitMessage();
+      props.SubmitMessage();
     }
     setErrorsExist(error);
   }
@@ -118,7 +119,7 @@ export const ContactForm = (props:any) => {
           <textarea id="message" className={isValidMessage?styles.note: `${styles.note} ${styles.invalidInput}`} value={message} onChange={e=>inputHandler(e)}/>
         </div>
         <div className={styles.submitButtonContainer}>
-          <Button type="submit">Send</Button>
+          <Button Type="submit">Send</Button>
         </div>
       </div>
     </form>

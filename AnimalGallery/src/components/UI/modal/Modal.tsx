@@ -17,7 +17,7 @@ const Overlay= (props:IModalProps)=>{
         <div className={styles.modal}>
             <p className={styles.title}>{props.Title}</p>
             <p>{props.Message}</p>
-            <Button className= {styles.button} method={props.OnDismiss}>Ok</Button>
+            <Button Type="button" className={styles.button} Method={props.OnDismiss}>Ok</Button>
         </div>
         )
 };

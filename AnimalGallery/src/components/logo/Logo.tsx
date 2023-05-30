@@ -1,7 +1,8 @@
+import ILogo from "../../interfaces/ILogo";
 import styles from "./Logo.module.scss";
 import {BsFillCameraFill} from "react-icons/bs";
 
-export const Logo = (props:any) => {
+export const Logo = (props:ILogo) => {
 
     const classes= `${styles.logo} ${props.className}`;
 
