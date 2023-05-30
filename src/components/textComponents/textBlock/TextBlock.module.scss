@@ -3,7 +3,7 @@
 .textBlock{
     display: flex;
     gap:clamp(1rem, calc(1.8vw - 4px), 2.5rem);
-    max-width: 75vw;
+    max-width: 60vw;
     flex-wrap: wrap;
 
     .heading{
