@@ -119,7 +119,7 @@ export const ContactForm = (props:IContactForm) => {
           <textarea id="message" className={isValidMessage?styles.note: `${styles.note} ${styles.invalidInput}`} value={message} onChange={e=>inputHandler(e)}/>
         </div>
         <div className={styles.submitButtonContainer}>
-          <Button Type="submit">Send</Button>
+          <Button className={styles.submitButton} Type="submit">Send</Button>
         </div>
       </div>
     </form>
