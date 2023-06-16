@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bc52e905.css",
-    "main.js": "/static/js/main.33c3d318.js",
+    "main.js": "/static/js/main.37b9dbd3.js",
     "static/js/787.723edc56.chunk.js": "/static/js/787.723edc56.chunk.js",
     "static/media/about_hero.jpg": "/static/media/about_hero.3a16f7e94b1915fd673d.jpg",
     "static/media/scandinavian_hero.jpg": "/static/media/scandinavian_hero.c97e0de83117c4f78f65.jpg",
@@ -11,11 +11,11 @@
     "static/media/fox.jpg": "/static/media/fox.5d7fcda015139c75edce.jpg",
     "index.html": "/index.html",
     "main.bc52e905.css.map": "/static/css/main.bc52e905.css.map",
-    "main.33c3d318.js.map": "/static/js/main.33c3d318.js.map",
+    "main.37b9dbd3.js.map": "/static/js/main.37b9dbd3.js.map",
     "787.723edc56.chunk.js.map": "/static/js/787.723edc56.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc52e905.css",
-    "static/js/main.33c3d318.js"
+    "static/js/main.37b9dbd3.js"
   ]
 }
