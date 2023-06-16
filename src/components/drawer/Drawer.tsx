@@ -10,8 +10,8 @@ export const Drawer = (props:IDrawer) => {
             <RxCross2/>
         </button>
         <a href="/">Home</a>
-        <a href="/contact">Exotic animals</a>
-        <a href="/contact">Scandinavian animals</a>
+        <a href="/exotic">Exotic animals</a>
+        <a href="/scandinavian">Scandinavian animals</a>
         <a href="/about">About us</a>
         <a href="/contact">Contact</a>
         <section className={styles.snailEyes}>
